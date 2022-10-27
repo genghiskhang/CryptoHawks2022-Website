@@ -1,0 +1,20 @@
+footer {
+    margin:0px;
+    text-align:center;
+    background-color:black;
+    color:var(--navbartext);
+    bottom:0px;
+    width:100%;
+    border-top:3px white solid;
+}
+
+#copyright {
+    font-size:1vw;
+    margin:0px;
+    padding:0.8vw;
+}
+
+#frc-logo {
+    width:2.5vw;
+    padding-bottom:0.8vw;
+}

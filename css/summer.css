@@ -1,0 +1,66 @@
+#closed {
+    font-size:4vw;
+    text-align:center;
+    background-color:red;
+    color:white;
+    margin:0px;
+    margin-bottom:4vw;
+}
+
+#summercamp-introduction {
+    margin:0px;
+    font-family:Lato;
+    font-size:1.5vw;
+    color:white;
+    margin-left:15vw;
+    margin-right:15vw;
+}
+
+#summercamp-layout {
+    display:flex;
+}
+
+#summercamp-group {
+    display:flex;
+    flex-direction:column;
+    flex:1;
+    /*For when google form is hidden*/
+    margin-left:20vw;
+    margin-right:20vw;
+}
+
+.summercamp {
+    margin:2vw;
+}
+
+.summercamp-title {
+    font-family:Joy Multiplication;
+    text-align:center;
+    color:white;
+    font-size:2.5vw;
+}
+
+.summercamp-description {
+    font-family:Lato;
+    color:white;
+    font-size:1.5vw;
+    margin-left:5vw;
+}
+
+.summercamp-image-container {
+    text-align:center;
+}
+
+.summercamp-image {
+    width:20vw;
+}
+
+#summercamp-signup {
+    flex:1;
+    margin:2vw;
+}
+
+#google-form {
+    width:35vw;
+    height:80vw;
+}

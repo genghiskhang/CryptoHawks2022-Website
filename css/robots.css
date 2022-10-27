@@ -1,0 +1,145 @@
+#robot-group {
+    display:flex;
+    flex-wrap:wrap;
+    gap:20vw 0px;
+}
+
+.robot {
+    display:flex;
+    margin-left:10vw;
+    margin-right:10vw;
+    gap:0vw 2.5vw;
+}
+
+.robot-image {
+    flex-grow:0;
+    height:38vw;
+    width:38vw;
+    object-fit:cover;
+}
+
+.robot-link {
+    text-decoration:none;
+}
+
+.robot-link:hover {
+    background-color:#505050;
+}
+
+.robot-label {
+    flex:1;
+}
+
+.robot-heading {
+    display:flex;
+    gap:2vw;
+}
+
+.robot-name {
+    font-family:Joy Multiplication;
+    font-size:2.5vw;
+    color:white;
+    margin-bottom:0px;
+}
+
+.robot-year {
+    font-family:Joy Multiplication;
+    font-size:1.5vw;
+    color:white;
+    margin-top:0px;
+}
+
+.robot-description {
+    font-family:Lato;
+    font-size:1.2vw;
+    color:white;
+}
+
+.robot-performance {
+    
+}
+
+.robot-performance h1{
+    font-family:Joy Multiplication;
+    font-size:1.8vw;
+    color:white;
+}
+
+.robot-performance ul {
+    padding:0px;
+    margin:0px;
+}
+
+.robot-performance-item {
+    margin-bottom:1vw;
+    list-style:none;
+    font-size:1.2vw;
+    color:white;
+}
+
+.robot-performance-events {
+    color:white;
+}
+
+.robot-events-headings {
+    font-size:1.2vw;
+}
+
+.robot-event td{
+    padding:0.8vw 2vw 0.8vw 0vw;
+    font-size:0.8vw;
+}
+
+.reverse {
+    flex-direction:row-reverse;
+    text-align:right;
+}
+
+
+.banner {
+    background: #0f4bcb;
+    color: white;
+    display: inline-block;
+    height: 170px;
+    width: 124px;
+    line-height: 1.2;
+    margin: 0 0 40px;
+    padding: 8px;
+    position: relative;
+    text-align: center;
+    vertical-align: top;
+    white-space: normal;
+}
+
+.banner:after {
+    content: '';
+    position: absolute;
+    display: block;
+    border: 70px solid #0f4bcb;
+    border-top-width: 5px;
+    border-bottom: 20px transparent solid;
+    top: 100%;
+    left: 0;
+}
+
+.banner img {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 75px;
+    max-height: 45px;
+}
+
+.banner .award-name, .banner .award-name-long {
+    display: table;
+    width: 100%;
+    height: 35px;
+    font-weight: bolder;
+    margin: 0;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+.banner .award-event {
+    font-size: 85%;
+    line-height: 130%;
+}

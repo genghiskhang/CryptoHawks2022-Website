@@ -1,0 +1,35 @@
+#welcome {
+    font-family:Joy Multiplication;
+    font-size:100px;
+    color:var(--whiteurbana);
+    margin:0px;
+}
+
+#introduction {
+    display:flex;
+    padding-top:4vw;
+    margin-left:10vw;
+    margin-right:10vw;
+}
+
+#urbana-logo {
+    max-height:20vw;
+}
+
+#introduction-description {
+    display:flex;
+    flex-direction:column;
+}
+
+#introduction-title {
+    font-family:Joy Multiplication;
+    font-size:3vw;
+    color:var(--whiteurbana);
+}
+
+#introduction-text {
+    font-family:Lato;
+    font-size:1.5vw;
+    color:var(--whiteurbana);
+    margin:0px;
+}
